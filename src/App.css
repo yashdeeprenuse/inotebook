@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+
+.navbar-brand {
+  color: cyan;
+}
+
+
+.navbar[data-bs-theme=dark]{
+
+  --bs-navbar-active-color: cyan;
+}
+
+.fa-pen-to-square,.fa-trash {
+  cursor: pointer;
+}
+
+#navid{
+  position: sticky;
+  z-index: 10;
+  top: 0px;
+}
+#alertid{
+  position: sticky;
+  z-index: 8;
+  top: 55px;
+}
+
